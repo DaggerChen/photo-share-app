@@ -1,0 +1,28 @@
+.login-window {
+    padding: 30px;
+}
+
+.login-text {
+    display: flex;
+    justify-content: center;
+    
+    
+}
+
+.login-button {
+    margin-top: 20px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.register {
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+#name {
+    display: flex;
+    justify-content: space-between;
+}

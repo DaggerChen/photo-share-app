@@ -1,0 +1,62 @@
+.cs142-topbar-appBar-toolBar {
+  margin-top: 0;
+  height: 60;
+  justify-content: space-between;
+}
+
+/* .cs142-topbar-appBar-toolBar {
+  justify-content: ;
+} */
+
+
+
+.user-info {
+  background: rgb(4, 67, 126);
+  color: rgb(255, 255, 255);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.login-info {
+  background: rgb(4, 67, 126);
+  display: flex;
+  justify-content: flex-end;
+  padding-right: 3%;
+}
+#visibility-control {
+  align-self: left;
+}
+#visibility-select-all {
+  font-weight: bolder;
+}
+#toolbar-first {
+  width: 35%;
+}
+#toolbar-second {
+  width: 33%;
+  text-align: center;
+}
+#toolbar-third {
+  width: 33%;
+  text-align: end;
+}
+
+.visibility-control {
+  float: right;
+}
+
+#logo {
+  height: 40px;
+  width: 60px;
+  
+  
+}
+
+.header-left {
+  display: table-cell;
+    vertical-align: middle;
+}
+
+#welcome-message {
+  text-transform: capitalize;
+}

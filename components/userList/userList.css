@@ -1,0 +1,7 @@
+#user-group-banner {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(50, 106, 211);
+    color: white;
+}

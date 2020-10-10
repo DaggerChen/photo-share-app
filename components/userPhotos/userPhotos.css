@@ -1,0 +1,112 @@
+
+.photo-comment {
+    
+    width: 83%;
+    text-align: center;
+}
+
+.profileButton {
+    position: relative;
+    top: 1em;
+    
+}
+
+.comment {
+    display: flex;
+    justify-content: flex-end;
+    align-items: baseline;
+    padding-right: 10px;
+    padding-left: 5px;
+}
+
+.commentDate {
+    padding-left: 5px;
+}
+
+img {
+    padding-top: 10px;
+    max-width: 80%;
+    
+}
+
+.photo-section {
+    margin-bottom: 2em;
+    padding: 0.5em;
+    
+}
+
+.comment-all {
+    height: fit-content;
+    margin-top: 5px;
+    background-color: rgba(245, 245, 245, 0.671);
+    background-clip: content-box;
+    border-left: 8px solid rgb(27, 114, 214);
+    
+    
+}
+
+.comment-text {
+    
+    background-clip: content-box;
+    padding-left: 5%;
+    text-align: left;
+}
+
+.new-comment-text {
+    
+    background-clip: content-box;
+    width: 80%;
+    padding-left: 5%;
+    text-align: left;
+    
+}
+
+.new-comment {
+    
+    padding-bottom: 0.5em;
+    padding-left: 72%;
+}
+
+.comment-text {
+    width: 95%;
+    padding: 2%;
+}
+
+.comment-section {
+    padding-bottom: 0.5em;
+}
+
+#delete {
+    position: absolute;
+    left: 79%;
+    
+
+}
+
+.delete-comment {
+    float: right;
+}
+
+
+h1.name {
+    display: inline;
+    
+  }
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+
+span#occupation {
+  font-style: italic;
+  font-family: initial;
+  font-size: 25px;
+}
+
+span#location {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 20px;
+}
