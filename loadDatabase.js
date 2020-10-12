@@ -26,7 +26,18 @@ var cs142models = require('./modelData/photoApp.js').cs142models;
 var mongoose = require('mongoose');
 mongoose.Promise = require('bluebird');
 
-mongoose.connect('mongodb://localhost/cs142project6', { useNewUrlParser: true, useUnifiedTopology: true });
+mongoose.connect('mongodb+srv://dagger:benben12@cluster0.o1els.mongodb.net/photo-share-app?retryWrites=true&w=majority', { useNewUrlParser: true, useUnifiedTopology: true });
+
+
+// const MongoClient = require('mongodb').MongoClient;
+// const uri = "mongodb+srv://dagger:<password>@cluster0.o1els.mongodb.net/<dbname>?retryWrites=true&w=majority";
+// const client = new MongoClient(uri, { useNewUrlParser: true });
+// client.connect(err => {
+//   const collection = client.db("test").collection("devices");
+//   // perform actions on the collection object
+//   client.close();
+// });
+
 
 // Load the Mongoose schema for Use and Photo
 var User = require('./schema/user.js');

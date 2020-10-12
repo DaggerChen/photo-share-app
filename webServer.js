@@ -57,7 +57,7 @@ app.use(bodyParser.json());
 // XXX - Your submission should work without this line. Comment out or delete this line for tests and before submission!
 
 
-mongoose.connect('mongodb://localhost/cs142project6', { useNewUrlParser: true, useUnifiedTopology: true });
+mongoose.connect('mongodb+srv://dagger:benben12@cluster0.o1els.mongodb.net/photo-share-app?retryWrites=true&w=majority', { useNewUrlParser: true, useUnifiedTopology: true });
 
 // We have the express static module (http://expressjs.com/en/starter/static-files.html) do all
 // the work for us.
